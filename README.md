@@ -17,7 +17,7 @@ If everything goes well, you can access the following services at given location
 * Grafana Dashboards - http://localhost:3000
 * Prometheus - http://localhost:9091
 * Hystrix Dashboard for Circuit Breaker pattern - http://localhost:7979 - On the home page is a form where you can enter 
-the URL for an event stream to monitor, for example the `api-gateway` service running locally: `http://localhost:8080/actuator/hystrix.stream` 
+the URL for an event stream to monitor, for example the api-gateway service running locally: `http://localhost:8080/actuator/hystrix.stream` 
 or running into docker: `http://api-gateway:8080/actuator/hystrix.stream`
 
 
@@ -58,9 +58,9 @@ Our issue tracker is available here: https://github.com/spring-petclinic/spring-
 
 ## Database configuration
 
-In its default configuration, Petclinic uses an in-memory database (HSQLDB) which gets populated at startup with data.
+In its default configuration, Petclinic uses an in-memory database (HSQLDB) which gets populated at startup with data
 A similar setup is provided for MySql in case a persistent database configuration is needed.
-Dependency for Connector/J, the MySQL JDBC driver is already included in the `pom.xml` files.
+Dependency for Connector/J, the MySQL JDBC driver is already included in the `pom.xml` files
 
 ### Start a MySql database
 
