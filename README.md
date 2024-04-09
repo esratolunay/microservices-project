@@ -71,7 +71,7 @@ docker run -e MYSQL_ROOT_PASSWORD=petclinic -e MYSQL_DATABASE=petclinic -p 3306:
 ```
 or download and install the MySQL database (e.g., MySQL Community Server 5.7 GA), which can be found here: https://dev.mysql.com/downloads/
 
-### Use the Spring 'mysql' profile
+### Use the Spring mysql profile
 
 To use a MySQL database, you have to start 3 microservices (`visits-service`, `customers-service` and `vets-services`)
 with the `mysql` Spring profile. Add the `--spring.profiles.active=mysql` as programm argument.
